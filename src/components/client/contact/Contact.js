@@ -78,7 +78,7 @@ const Contact = ({
             />
           </div>
           <EmailCard displayMode={displayMode} />
-          <div className='or'>OR</div>
+
           <Card
             displayMode={displayMode}
             messageEmptyError={messageEmptyError}

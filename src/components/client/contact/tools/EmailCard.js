@@ -12,8 +12,8 @@ const EmailCard = ({ displayMode }) => {
         Get in touch!
       </div>
       <a
-        href='mailto:Allen.sb@gmail.com'
-        alt='Allen.sb@gmail.com'
+        href='mailto:allen22052000@gmail.com'
+        alt='allen22052000@gmail.com'
       >
         <div className='email-button'>Send Email</div>
       </a>

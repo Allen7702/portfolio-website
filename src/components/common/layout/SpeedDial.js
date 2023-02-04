@@ -14,12 +14,12 @@ const actions = [
   {
     icon: <LinkedInIcon />,
     name: "Linkedin Profile",
-    link: "https://www.linkedin.com/in/Allen",
+    link: "https://www.linkedin.com/in/Allen Mgeyekwa",
   },
   {
     icon: <GitHubIcon />,
     name: "Github Profile",
-    link: "https://www.github.com/Allenx",
+    link: "https://www.github.com/Allen7702",
   },
 ];
 

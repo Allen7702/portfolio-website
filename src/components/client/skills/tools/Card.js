@@ -95,7 +95,7 @@ const Card = ({
         <div className='image'>
           <img src={logo} alt='Logo of Tech' />
         </div>
-        <div className='title'>{title}</div>
+        <div className='title pt-6'>{title}</div>
       </div>
       <div></div>
     </div>

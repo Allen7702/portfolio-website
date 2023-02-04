@@ -99,6 +99,7 @@ const Card = ({
   const iconButtonStyle = loginIconButtonStyle();
 
   return (
+    /*
     <div
       className='body flex_middle'
       style={{ marginTop: "2em" }}
@@ -439,8 +440,11 @@ const Card = ({
             </div>
           </div>
         </div>
+        
       )}
     </div>
+    */
+   <></>
   );
 };
 

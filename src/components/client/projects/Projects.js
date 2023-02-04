@@ -10,13 +10,12 @@ import SmallCard from './tools/mobile/Card';
 import InvertedCard from "./tools/browser/InvertedCard";
 
 import {
+  amecoreLight,
+  mandingaLight,
   AllenPicsLight,
   AllenPicsDark,
-  gotuuPicsLight,
-  gotuuPicsDark,
-  funWithRedditPics,
+  mandingaDark,
 } from "./data/photos";
-
 import Title from "../../common/layout/Title";
 
 const Projects = ({
@@ -37,12 +36,12 @@ const Projects = ({
           {width < 860 ? (
             <div>
               <SmallCard
-                pics={displayMode ? gotuuPicsDark : gotuuPicsLight}
-                title={"gotuu.in"}
-                link={"https://gotuu.in"}
-                subTitle={"Web-App"}
+                pics={amecoreLight}
+                title={"amecore.co.tz"}
+                link={"https://amecore.co.tz"}
+                subTitle={"Website"}
                 description={
-                  "A web-app to maximize your productivity and manage time smartly. Also included smart metrics to check your statistics."
+                  "A website aimed at giving product solutions to various technical problems."
                 }
                 tech={[
                   "Dual-Mode",
@@ -51,24 +50,24 @@ const Projects = ({
                   "Metrics",
                   "Timeline",
                 ]}
-                gitUrl={"https://github.com/Allenx/gotuu"}
+                gitUrl={"https://github.com/Allen7702/Amecore-Technology.git"}
               />
               <SmallCard
-                pics={funWithRedditPics}
-                title={"Fun w/ Reddit"}
-                link={"https://sumptuous-sandy-basket.glitch.me/"}
-                subTitle={"Web API Project"}
+                pics={displayMode ? mandingaDark : mandingaLight}
+                title={"MandingaTravels"}
+                link={"https://mandingatravels.netlify.app/"}
+                subTitle={"Website"}
                 description={
-                  "A simple web project to utilize the Reddit API by lazy-loading. API Data is cleaned and sent from the server in real-time while scrolling."
+                  "A Travel agency site that promotes and showcases various tourist points of attraction from Tanzania "
                 }
                 tech={[
                   "Dual-Mode",
-                  "Reddit API",
-                  "Snoowrap",
-                  "Data Cleaning",
-                  "Lazy-load",
+                  "Whatsapp API",
+                  "React",
+                  "Tailwind",
+                  "Redux",
                 ]}
-                gitUrl={"https://github.com/Allenx/fun-with-reddit"}
+                gitUrl={"https://github.com/Allen7702/mandingaTravel.git"}
               />
               <SmallCard
                 pics={displayMode ? AllenPicsDark : AllenPicsLight}
@@ -76,47 +75,47 @@ const Projects = ({
                 link={"https://Allen.com"}
                 subTitle={"Portfolio Website"}
                 description={
-                  "My portfolio website. Includes client side static site and admin overview functionalities to check stats and messages."
+                  "My portfolio website. Includes client side static site."
                 }
-                tech={["Showcase", "Personal", "Messages", "Mui", "Javascript"]}
-                gitUrl={"https://github.com/Allenx/portfolio"}
+                tech={["Showcase", "Personal", "Mui", "Javascript"]}
+                gitUrl={"https://github.com/Allen7702/portfolio-website.git"}
               />
             </div>
           ) : (
             <>
               <Card
-                pics={displayMode ? gotuuPicsDark : gotuuPicsLight}
-                title={"gotuu.in"}
-                link={"https://gotuu.in"}
-                subTitle={"Web-App"}
+                pics={amecoreLight}
+                title={"amecore.co.tz"}
+                link={"https://amecore.co.tz"}
+                subTitle={"Website"}
                 description={
-                  "A web-app to maximize your productivity and manage time smartly. Also included smart metrics to check your statistics."
+                  "A website aimed at giving product solutions to various technical problems."
                 }
                 tech={[
                   "Dual-Mode",
-                  "Time management",
+                  "management",
                   "Free",
                   "Metrics",
-                  "Timeline",
+                  "PHP",
                 ]}
-                gitUrl={"https://github.com/Allenx/gotuu"}
+                gitUrl={"https://github.com/Allen7702/Amecore-Technology.git"}
               />
               <InvertedCard
-                pics={funWithRedditPics}
-                title={"Fun w/ Reddit"}
-                link={"https://sumptuous-sandy-basket.glitch.me/"}
-                subTitle={"Web API Project"}
+                pics={displayMode ? mandingaDark : mandingaLight}
+                title={"MandingaTravels"}
+                link={"https://mandingatravels.netlify.app/"}
+                subTitle={"Website"}
                 description={
-                  "A simple web project to utilize the Reddit API by lazy-loading. API Data is cleaned and sent from the server in real-time while scrolling."
+                  "A Travel agency site that promotes and showcases various tourist points of attraction from Tanzania "
                 }
                 tech={[
                   "Dual-Mode",
-                  "Reddit API",
-                  "Snoowrap",
-                  "Data Cleaning",
-                  "Lazy-load",
+                  "Whatsapp API",
+                  "React",
+                  "Tailwind",
+                  "Redux",
                 ]}
-                gitUrl={"https://github.com/Allenx/fun-with-reddit"}
+                gitUrl={"https://github.com/Allen7702/mandingaTravel.git"}
               />
               <Card
                 pics={displayMode ? AllenPicsDark : AllenPicsLight}
@@ -126,8 +125,8 @@ const Projects = ({
                 description={
                   "My portfolio website. Includes client side static site and admin overview functionalities to check stats and messages."
                 }
-                tech={["Showcase", "Personal", "Messages", "Mui", "Javascript"]}
-                gitUrl={"https://github.com/Allenx/portfolio"}
+                tech={["Showcase", "Personal", "Mui", "Javascript"]}
+                gitUrl={"https://github.com/Allen7702/portfolio-website.git"}
               />
             </>
           )}
@@ -135,7 +134,7 @@ const Projects = ({
         <div className='read-more flex_middle' style={{ marginTop: "-3em" }}>
           <div className='ft-bold' style={{ marginLeft: "0.5em" }}>
             <a
-              href='https://github.com/Allenx?tab=repositories'
+              href='https://github.com/Allen7702?tab=repositories'
               rel='noreferrer nofollow'
               target='_blank'
             >

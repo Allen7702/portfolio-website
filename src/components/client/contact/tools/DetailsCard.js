@@ -25,13 +25,13 @@ const DetailsCard = ({ displayMode }) => {
         <div className='title'>
           <FontAwesomeIcon icon={faEnvelope} />
         </div>
-        <div style={{ fontSize: "0.85em" }}>Allen.sb@gmail.com</div>
+        <div style={{ fontSize: "0.85em" }}>allen22052000@gmail.com</div>
       </div>
       <div className='info'>
         <div className='title'>
           <FontAwesomeIcon icon={faMobileAlt} />
         </div>
-        <div style={{ fontSize: "0.85em" }}>+91 79721 46825</div>
+        <div style={{ fontSize: "0.85em" }}>+255 783 700 954</div>
       </div>
       <div className='info'>
         <div className='title'>

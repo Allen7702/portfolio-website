@@ -1,29 +1,28 @@
 export const companies = [
   {
-    name: "Dr SB's",
+    name: "Mwanza City Council",
     type: "Industry",
     work: [
-      "Designed and developed infrastructure for bookings and appointments using Node.js and PostgresDB",
-      "Digitized patient-care work flow including digital medical records, prescriptions and pet passports",
-      "Created UI/UX for client-side site using React and Bootstrap",
-      "Developed npm packages to standardize the bookings API for appointments and vaccination",
-      "Implemented smart learning metrics of a given store and showcase it with the use of dashboards",
-    ],
-    position: "Software Development Engineer",
-    duration: "Jan '22 - Present",
+      "Designed and developed network infrastructure for government hospitals",
+      "Digitized patient-care work flow including digital medical records, prescriptions ",
+      "Created UI/UX for client-side site using Bootstrap",
+      ],
+    position: "IT Technician",
+    duration: "July '27 - October",
   },
   {
-    name: "2WheelR",
-    type: "Industry",
+    name: "UDICTI-FINHUB",
+    type: "Innovation HUB",
     work: [
-      "Used Spring Boot to design and develop backend APIs and optimized them using Spark database analysis",
-      "Designed and implemented a high number of asynchronous transactions according to ACID properties",
-      "Created UI/UX for client-side site using React and Bootstrap",
-      "Developed the minimum viable product (MVP) to initiate a soft-launch of the digital space which included admin facilities, store updates and digital financial records and client-side retail space",
+      "Used Scrum Agile Methodology to make up with solutions that faced the Fintech industry",
+      "Designed  systems that could aid banks to easen and lessen the queus that take place",
+      "Created UI/UX for client-side and  server-side site using Flutter and React",
+      "Used Node.JS to design and develop backend APIs to enable communication between the client-side and the server",
     ],
-    position: "Software Development - CEO's Office",
-    duration: "Jan '21 - Dec '21",
+    position: "Frontend developer",
+    duration: "July '25 - October",
   },
+  /*
   {
     name: "Teach for India",
     type: "NGO",
@@ -55,5 +54,5 @@ export const companies = [
     ],
     position: "Volunteer",
     duration: "Nov '18 - May '20",
-  },
+  }, */
 ];

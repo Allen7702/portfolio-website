@@ -1,122 +1,80 @@
-export const gotuuPicsLight = [
-  {
-    imgSource: "https://i.postimg.cc/CLW7jtb8/main-page-light-1.png",
-    imgText: "Main Page for play/pause",
-  },
-  {
-    imgSource: "https://i.postimg.cc/mrSSWgJ3/work-page-light-6.png",
-    imgText: "Stopwatch started and start of a tuu",
-  },
-  {
-    imgSource: "https://i.postimg.cc/N0txnHJf/note-page-light-6.png",
-    imgText: "Including task note for the current time tuu.",
-  },
-  {
-    imgSource: "https://i.postimg.cc/0Q20kq1T/timeline-page-light-5.png",
-    imgText:
-      "Timeline showing each Tuu (interval), its corresponding note and whether the tasks on the note are completed or not.",
-  },
-  {
-    imgSource: "https://i.postimg.cc/cH9M65sr/metrics-page-light-5.png",
-    imgText: "Metrics and statistics page based on performance",
-  },
-  {
-    imgSource: "https://i.postimg.cc/rs71N0RT/login-page-light-2.png",
-    imgText: "Login Page for Gotuu",
-  },
-  {
-    imgSource: "https://i.postimg.cc/XqrK5cJx/register-page-light-3.png",
-    imgText: "Registration Page for Gotuu",
-  },
-  {
-    imgSource: "https://i.postimg.cc/0Q20kq1T/timeline-page-light-5.png",
-    imgText: "About section containing tutorials on how to use the features.",
-  },
-];
+import amecore1 from "./img/amecore1.png";
+import amecore2 from "./img/amecore2.png";
+import amecore3 from "./img/amecore3.png";
+import allenDark from "./img/allenDark.png";
+import allenLight from "./img/allenLight.png";
+import Light from "./img/light2.png";
+import Dark from "./img/dark2.png";
+import Light1 from "./img/mlight1.png";
+import Light2 from "./img/mlight2.png";
+import Light3 from "./img/mlight3.png";
+import Dark1 from "./img/mdark1.png";
+import Dark2 from "./img/mdark2.png";
+import Dark3 from "./img/mdark3.png";
 
-export const gotuuPicsDark = [
+export const amecoreLight = [
   {
-    imgSource: "https://i.postimg.cc/NMXB0LqV/main-page-dark-1.png",
+    imgSource: amecore1,
     imgText: "Main Page for play/pause",
   },
   {
-    imgSource: "https://i.postimg.cc/zX88JJdt/work-page-dark-6.png",
-    imgText: "Stopwatch started and start of a tuu",
+    imgSource: amecore2,
+    imgText: "middle section",
   },
   {
-    imgSource: "https://i.postimg.cc/mZQTfcS1/note-page-dark-6.png",
-    imgText: "Including task note for the current time tuu.",
+    imgSource: amecore3,
+    imgText: "last section.",
   },
-  {
-    imgSource: "https://i.postimg.cc/kg5CbTPW/timeline-page-dark-5.png",
-    imgText:
-      "Timeline showing each Tuu (interval), its corresponding note and whether the tasks on the note are completed or not.",
-  },
-  {
-    imgSource: "https://i.postimg.cc/YqRk0JZp/metrics-page-dark-5.png",
-    imgText: "Metrics and statistics page based on performance",
-  },
-  {
-    imgSource: "https://i.postimg.cc/vmgdPDBB/login-page-dark-2.png",
-    imgText: "Login Page for Gotuu",
-  },
-  {
-    imgSource: "https://i.postimg.cc/kghmFW7z/register-page-dark-3.png",
-    imgText: "Registration Page for Gotuu",
-  },
-  {
-    imgSource: "https://i.postimg.cc/tgKG8yZz/about-page-dark-4.png",
-    imgText: "About section containing tutorials on how to use the features.",
-  },
+ 
 ];
 
 export const AllenPicsLight = [
   {
-    imgSource: "https://i.postimg.cc/GpPFH4Hf/Allen-Portfolio-Light-Five.png",
-    imgText: "Homepage of my portfolio website",
+    imgSource: allenLight ,
+    imgText: "Main page",
   },
   {
-    imgSource: "https://i.postimg.cc/q72LymZj/Allen-Portfolio-Light-One.png",
-    imgText: "Admin dashboard pages showcasing recent messages",
-  },
-  {
-    imgSource: "https://i.postimg.cc/ydBTPFMB/Allen-Portfolio-Light-Two.png",
-    imgText: "Metrics pages for recent hits, message metrics and more",
-  },
-  {
-    imgSource: "https://i.postimg.cc/RFrYz62b/Allen-Portfolio-Light-Three.png",
-    imgText: "Various functionalities for messages",
-    needsFit: true,
+    imgSource: Light ,
+    imgText: "work & projects",
   },
 ];
 
 export const AllenPicsDark = [
   {
-    imgSource: "https://i.postimg.cc/c4VdBbM2/Allen-Portfolio-Dark-Five.png",
-    imgText: "Homepage of my portfolio website",
+    imgSource:Dark ,
+    imgText: "work & projects",
   },
   {
-    imgSource: "https://i.postimg.cc/05XkbQ68/Allen-Portfolio-Dark-One.png",
-    imgText: "Admin dashboard pages showcasing recent messages",
-  },
-  {
-    imgSource: "https://i.postimg.cc/bNGzbhb1/Allen-Portfolio-Dark-Two.png",
-    imgText: "Metrics pages for recent hits, message metrics and more",
-  },
-  {
-    imgSource: "https://i.postimg.cc/wMrgPfKt/Allen-Portfolio-Dark-Three.png",
-    imgText: "Various functionalities for messages",
-    needsFit: true,
+    imgSource: allenLight ,
+    imgText: "Main page",
   },
 ];
 
-export const funWithRedditPics = [
+export const mandingaLight = [
   {
-    imgSource: "https://i.postimg.cc/mkDwK7T9/homepage-1.png",
-    imgText: "Home page of FwR",
+    imgSource: Light1,
+    imgText: "Home page of Mandinga",
   },
   {
-    imgSource: "https://i.postimg.cc/ydkCBQX6/funwithredditworking.gif",
-    imgText: "A walk-through of the features of FwR",
+    imgSource: Light2,
+    imgText: "Home page of Mandinga",
+  },
+  {
+    imgSource: Light3,
+    imgText: "Home page of Mandinga",
+  },
+];
+export const mandingaDark = [
+  {
+    imgSource: Dark1,
+    imgText: "Home page of Mandinga",
+  },
+  {
+    imgSource: Dark2,
+    imgText: "Home page of Mandinga",
+  },
+  {
+    imgSource: Dark3,
+    imgText: "Home page of Mandinga",
   },
 ];

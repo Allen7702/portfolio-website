@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Title from "../../common/layout/Title";
 import useWindow from 'react-window-size-simple';
+import  allen  from '../about/allen.jpg';
 
 const About = ({ innerRef }) => {
 
@@ -29,18 +30,16 @@ const About = ({ innerRef }) => {
           <div className='body app' style={{ alignItems: "flex-start" }}>
             <div className='details'>
               <div>
-                Namaste! My name is Allen and I like gaining new experiences and
-                creating stuff. In my 24 years on this planet, I've been a
-                national-level cyclist, engineering student, researcher, high
-                school teacher, and now a software developer.
+                My name is Allen and I like gaining new experiences and
+                creating stuff. In my 22 years of age, I'm a computer science student, whose a  software developer
+                .And also interested in mobile development
               </div>
               <div style={{ marginTop: "2em" }}>
                 I believe that technology should be as ergonomic as it is
-                complex. Currently, I work as a software developer at a nascent
-                company called Dr SB's.
+                complex. Currently, I work as a software developer 
               </div>
               <div style={{ marginTop: "2em" }}>
-                In my free time, I enjoy writing while sipping on a cappuccino
+                In my free time, I enjoy writing while sipping coffee
                 at my regular cafe.
               </div>
             </div>
@@ -57,7 +56,7 @@ const About = ({ innerRef }) => {
               </div>
               <div style={{ display: isLoading ? "none" : "block" }}>
                 <img
-                  src={"https://i.postimg.cc/vZQHqRSC/profile2.png"}
+                  src={allen}
                   alt='Allen Profile Pic'
                   onLoad={onLoad}
                 />
