@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import useSound from "use-sound";
 import { connect } from 'react-redux';
 
-import second from "../../../resources/images/main/gifs/drinkingWater.gif";
 
 import keyboard from "../../../resources/sounds/keyboard.mp3";
 

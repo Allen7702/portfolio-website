@@ -12,12 +12,9 @@ import Home from "./Home";
 import NotFound from "./components/common/layout/NotFound";
 import Sidebar from "./components/common/navbar/Sidebar";
 import Navbar from "./components/common/navbar/Navbar";
-import Login from "./components/admin/auth/Login";
-import Main from "./components/admin/main/Main";
+
+
 import PrivateRoute from "./utils/PrivateRoute";
-import Stats from "./components/admin/stats/Stats";
-import Blog from './components/admin/blog/Blog'
-import CheckAuth from "./components/admin/blog/auth/CheckAuth";
 import WillBeLive from "./components/common/layout/WillBeLive";
 
 import "./App.css";
@@ -106,66 +103,17 @@ function App({
   }
 
   if (true) {
-    if (window.location.host.split(".")[0] === "admin") {
+    
       return (
-        <Router>
-          <>
-            <Switch>
-              {/* -------------------- ADMIN ----------------------- */}
-
-              <PrivateRoute path='/' exact component={Main} />
-              <PrivateRoute path='/stats' exact component={Stats} />
-              <BlogAuthRoute path='/blog' exact component={Blog} />
-              <PrivateRoute
-                path='/blog-check-auth'
-                exact
-                component={CheckAuth}
-              />
-              <Route
-                exact
-                path='/login'
-                render={(props) => (
-                  <Login
-                    Sidebar={<Sidebar hover={hover} />}
-                    Navbar={<Navbar />}
-                  />
-                )}
-              />
-              <Route component={NotFound} />
-            </Switch>
-          </>
-        </Router>
-      );
-    } else {
-      return (
-        <Router>
-          <>
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route
-                path='/admin/login'
-                render={(props) => (
-                  <Login
-                    Sidebar={<Sidebar hover={hover} />}
-                    Navbar={<Navbar />}
-                  />
-                )}
-              />
-              <Route component={NotFound} />
-            </Switch>
-          </>
-        </Router>
-      );
-    }
-  } else {
-    return (
-      <Router>
-      <Switch>
-        <WillBeLive />
-      </Switch>
-      </Router>
-    )
-  }
+          <Router>
+          <Switch>
+          <Route exact path='/' component={Home} />
+          </Switch>
+          </Router>
+        )
+    
+  } 
+ 
 }
 
 App.propTypes = {

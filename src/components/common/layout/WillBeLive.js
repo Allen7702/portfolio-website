@@ -7,7 +7,6 @@ import BackgroundMedium from "../../client/main/BackgroundMedium";
 import BackgroundSmall from "../../client/main/BackgroundSmall";
 import BackgroundTiny from "../../client/main/BackgroundTiny";
 
-import body from '../../../resources/images/main/body-shots/smug.png'
 
 const WillBeLive = (props) => {
   const { width } = useWindow()
@@ -22,9 +21,7 @@ const WillBeLive = (props) => {
           <div
             className={width < 769 ? "app" : "flex_middle"}
           >
-            <div className='image'>
-              <img src={body} alt='Me standing up' />
-            </div>
+            
             <div className='app'>
               <div className='writing'>
                 <span className='middle'>a</span>unsh
