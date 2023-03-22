@@ -72,13 +72,13 @@ const Projects = ({
               <SmallCard
                 pics={displayMode ? AllenPicsDark : AllenPicsLight}
                 title={"Allen.com"}
-                link={"https://Allen.com"}
+                link={"https://AllenV2.netlify.app"}
                 subTitle={"Portfolio Website"}
                 description={
                   "My portfolio website. Includes client side static site."
                 }
                 tech={["Showcase", "Personal", "Mui", "Javascript"]}
-                gitUrl={"https://github.com/Allen7702/portfolio.github.io"}
+                gitUrl={"https://github.com/Allen7702/portfolio-website.git"}
               />
             </div>
           ) : (
@@ -120,13 +120,13 @@ const Projects = ({
               <Card
                 pics={displayMode ? AllenPicsDark : AllenPicsLight}
                 title={"Allen.com"}
-                link={"https://Allen.com"}
+                link={"https://AllenV2.netlify.app"}
                 subTitle={"Portfolio Website"}
                 description={
                   "My portfolio website. Includes client side static site and admin overview functionalities to check stats and messages."
                 }
                 tech={["Showcase", "Personal", "Mui", "Javascript"]}
-                gitUrl={"https://github.com/Allen7702/portfolio.github.io"}
+                gitUrl={"https://github.com/Allen7702/portfolio-website.git"}
               />
             </>
           )}
