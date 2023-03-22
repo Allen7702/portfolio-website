@@ -346,7 +346,7 @@ const SidebarMini = ({
         </div>
         <div className='flex_between'>
           <a
-            href='https://github.com/Allenx'
+            href='https://github.com/Allen7702'
             target={"_blank"}
             rel='noreferrer nofollow'
             alt='Github Logo'

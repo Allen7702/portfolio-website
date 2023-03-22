@@ -31,16 +31,16 @@ const About = ({ innerRef }) => {
             <div className='details'>
               <div>
                 My name is Allen and I like gaining new experiences and
-                creating stuff. In my 22 years of age, I'm a computer science student, whose a  software developer
-                .And also interested in mobile development
+                creating stuff.  As a 22-year-old computer science student, 
+                I specialize in software development and have a keen 
+                 in mobile development.
               </div>
               <div style={{ marginTop: "2em" }}>
                 I believe that technology should be as ergonomic as it is
                 complex. Currently, I work as a software developer 
               </div>
               <div style={{ marginTop: "2em" }}>
-                In my free time, I enjoy writing while sipping coffee
-                at my regular cafe.
+                In my free time, I enjoy listening to music .
               </div>
             </div>
             <div

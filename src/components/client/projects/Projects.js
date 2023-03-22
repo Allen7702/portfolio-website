@@ -78,7 +78,7 @@ const Projects = ({
                   "My portfolio website. Includes client side static site."
                 }
                 tech={["Showcase", "Personal", "Mui", "Javascript"]}
-                gitUrl={"https://github.com/Allen7702/portfolio-website.git"}
+                gitUrl={"https://github.com/Allen7702/portfolio.github.io"}
               />
             </div>
           ) : (
@@ -126,7 +126,7 @@ const Projects = ({
                   "My portfolio website. Includes client side static site and admin overview functionalities to check stats and messages."
                 }
                 tech={["Showcase", "Personal", "Mui", "Javascript"]}
-                gitUrl={"https://github.com/Allen7702/portfolio-website.git"}
+                gitUrl={"https://github.com/Allen7702/portfolio.github.io"}
               />
             </>
           )}
